@@ -1,0 +1,9 @@
+USE demodb;
+
+CREATE TABLE USERS (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    city VARCHAR(100) NOT NULL,
+    temp FLOAT NOT NULL
+);
+
+
